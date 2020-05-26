@@ -1,0 +1,40 @@
+<!--pages/generate/generate.wxml-->
+<view class="container-generate">
+    <view class="current-head">
+      <!-- <image class="userhead-current" style="width:100px; height: 100px; padding: 20px;"
+        src="{{currentImage}}" mode="aspectFit"></image> -->
+        <!-- style="width:{{canvasWidth}}px; height:{{canvasHeight}}px; -->
+      <canvas
+        style="width:120px; height: 120px; display: block; margin: auto;"
+      canvas-id="myCanvas"/>
+    </view>
+    <view class="row1" >
+      <image class="userhead-current" style="width:70px; height: 70px; padding: 10px;"
+        src="../../image/head1.png" mode="aspectFit" bindtap="handleClick1"></image>
+      <image class="userhead-current" style="width:70px; height: 70px; padding: 10px;"
+        src="../../image/head2.png" mode="aspectFit" bindtap="handleClick2"></image>
+      <image class="userhead-current" style="width:70px; height: 70px; padding: 10px;"
+        src="../../image/head3.png" mode="aspectFit" bindtap="handleClick3"></image>
+    </view>
+    <view class="row2">
+      <image class="userhead-current" style="width:70px; height: 70px; padding: 10px;"
+        src="../../image/head4.png" mode="aspectFit" bindtap="handleClick4"></image>
+      <image class="userhead-current" style="width:70px; height: 70px; padding: 10px;"
+        src="../../image/head5.png" mode="aspectFit" bindtap="handleClick5"></image>
+      <image class="userhead-current" style="width:70px; height: 70px; padding: 10px;"
+        src="../../image/head6.png" mode="aspectFit" bindtap="handleClick6"></image> 
+    </view>
+    <view class="row3">
+      <image class="userhead-current" style="width:70px; height: 70px; padding: 10px;"
+        src="../../image/head7.png" mode="aspectFit" bindtap="handleClick7"></image>
+      <image class="userhead-current" style="width:70px; height: 70px; padding: 10px;"
+        src="../../image/head8.png" mode="aspectFit" bindtap="handleClick8"></image>
+      <image class="userhead-current" style="width:70px; height: 70px; padding: 10px;"
+        src="../../image/head9.png" mode="aspectFit" bindtap="handleClick9"></image>
+    </view>
+    <view class="save_and_share">
+      <button class="save-button" size="mini" bindtap="handleSave">保存到相册</button>
+    </view>
+    
+    <view class="share-text">记得右上角分享给同学哦</view>
+</view>

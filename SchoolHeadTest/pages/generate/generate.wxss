@@ -1,0 +1,45 @@
+/* pages/generate/generate.wxss */
+
+.container-generate {
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  vertical-align: middle;
+  position: absolute;
+}
+.current-head {
+  height: 25%;
+  width: 100%;
+  margin-top: 20px;
+  vertical-align: middle;
+}
+.row1 {
+  height: 20%;
+  vertical-align: middle;
+}
+.row2 {
+  height: 20%;
+  vertical-align: middle;
+}
+.row3 {
+  height: 20%;
+  vertical-align: middle;
+}
+.save_and_share{
+  height: 5%;
+
+}
+.save-button {
+  padding: 3px 18px;
+	border-radius: 20px;
+  font-size: 100%;
+  font-weight: bold;
+  width: fit-content;
+  color: white;
+  background-color: #73b7f7;
+}
+.share-text {
+  margin-top: 5px;
+  font-size: 90%;
+  color: grey;
+}
